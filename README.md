@@ -91,7 +91,7 @@ uv run python -c "import nltk; nltk.download('brown'); nltk.download('punkt')"
 
 ```bash
 cd ~/Code/nlpb
-uv run python backend/main.py
+uv run python -m backend.main
 ```
 
 The API will be available at: <http://localhost:8000>
@@ -172,14 +172,6 @@ The dashboard will open automatically at: <http://localhost:8501>
 - `GET /` - Root endpoint
 - `GET /health` - Health check
 
-## 🧪 Testing
-
-Run the test suite:
-
-```bash
-cd ~/Code/nlpb
-uv run pytest tests/ -v
-```
 
 ## 📊 MVP Business Logic
 
