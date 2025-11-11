@@ -26,6 +26,7 @@ st.markdown("""
         padding: 1.5rem;
         border-radius: 10px;
         margin: 1rem 0;
+        color: #000;
     }
     .metric-card {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -41,7 +42,7 @@ st.markdown("""
 st.markdown('<h1 class="main-header">📊 NLP Business Intelligence Dashboard</h1>', unsafe_allow_html=True)
 
 st.markdown("""
-Welcome to the **NLP Business Intelligence** platform! This application provides powerful 
+Welcome to the **NLP Business Intelligence** platform! This application provides powerful
 Natural Language Processing tools for business decision-making.
 """)
 
@@ -116,9 +117,9 @@ st.markdown(instructions)
 with st.sidebar:
     st.header("ℹ️ About")
     st.info("""
-    This platform leverages state-of-the-art NLP techniques to provide 
+    This platform leverages state-of-the-art NLP techniques to provide
     actionable business intelligence from unstructured text data.
-    
+
     **Technologies:**
     - FastAPI
     - Streamlit
@@ -126,17 +127,17 @@ with st.sidebar:
     - Scikit-learn
     - Pandas
     """)
-    
+
     st.header("🚀 Quick Start")
     st.markdown("""
     1. Ensure backend API is running on port 8000
     2. Select a feature from the main page
     3. Follow the on-screen instructions
     """)
-    
+
     st.header("📞 Support")
     st.markdown("""
-    For issues or questions, please check the documentation or 
+    For issues or questions, please check the documentation or
     contact the development team.
     """)
 
