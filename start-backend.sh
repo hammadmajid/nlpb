@@ -3,4 +3,4 @@
 
 echo "🚀 Starting NLP Business Intelligence Backend API..."
 cd "$(dirname "$0")"
-uv run python backend/main.py
+uv run python -m backend.main
