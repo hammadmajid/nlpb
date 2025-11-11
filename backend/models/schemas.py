@@ -5,6 +5,13 @@ from pydantic import BaseModel, Field
 from typing import List, Optional, Dict
 
 
+# Health Check Models
+class HealthResponse(BaseModel):
+    """Response model for health check endpoints."""
+    status: str
+    message: str
+
+
 # Sentiment Analysis Models
 class SentimentRequest(BaseModel):
     """Request model for sentiment analysis."""
